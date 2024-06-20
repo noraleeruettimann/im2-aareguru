@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const response = await fetch(apiUrl);
             const data = await response.json();
             const date = new Date().toLocaleDateString('de-DE', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
-            const isGoodDay = data.aare.temperature > 17;
+            const isGoodDay = data.aare.temperature > 16;
 
             const dayStatusBox = document.createElement('div');
             dayStatusBox.style.backgroundColor = isGoodDay ? '#ffcc00' : '#007691';
