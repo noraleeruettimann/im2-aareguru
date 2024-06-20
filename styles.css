@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
 
 body, html {
-    font-family: 'Poppins-light', sans-serif;
-    color: white;
-    text-align: center;
+    font-family: 'Poppins-light', sans-serif; /* Setzt die Schriftart */
+    color: white; /* Setzt die Schriftfarbe */
+    text-align: center; /* Zentriert den Text */
     padding: 0;
     margin: 0;
     min-height: 100vh;
@@ -16,66 +16,66 @@ body, html {
 }
 
 header {
-    width: 100%;
-    background: #f7f7f7;
+    width: 100%; /* Setzt die Breite des Headers auf 100% */
+    background: #f7f7f7; /* Setzt die Hintergrundfarbe des Headers */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 30px;
-    position: fixed;
+    padding: 10px 30px; /* Fügt Polsterung um den Header hinzu */
+    position: fixed; /* Fixiert den Header oben auf der Seite */
     top: 0;
     font-size: 1.2em;
-    color: #ff7139;
-    text-transform: uppercase;
-    z-index: 1000;
+    color: #ff7139; /* Setzt die Schriftfarbe */
+    text-transform: uppercase; /* Wandelt den Text in Grossbuchstaben um */
+    z-index: 1000; /* Setzt die Z-Index des Headers, um ihn über anderen Elementen zu halten */
 }
 
 header img {
-    cursor: pointer;
-    width: 80px;
-    margin-left: 20px;
+    cursor: pointer; /* Ändert den Cursor, wenn er über das Bild bewegt wird */
+    width: 80px; /* Setzt die Breite des Bildes */
+    margin-left: 20px; /* Fügt linken Rand hinzu */
 }
 
 header div a {
-    font-family: 'Poppins', sans-serif;
-    color: #ff7139;
-    text-decoration: none;
-    margin-right: 30px;
-    transition: color 0.3s ease;
+    font-family: 'Poppins', sans-serif; /* Setzt die Schriftart */
+    color: #ff7139; /* Setzt die Schriftfarbe */
+    text-decoration: none; /* Entfernt die Unterstreichung des Links */
+    margin-right: 30px; /* Fügt rechten Rand hinzu */
+    transition: color 0.3s ease; /* Fügt eine Übergangseffekt zur Farbänderung hinzu */
 }
 
 header div a:hover {
-    color: #dd6f3b;
+    color: #dd6f3b; /* Ändert die Schriftfarbe bei Hover */
 }
 
 .call-to-action {
-    margin-top: 100px;
+    margin-top: 100px; /* Fügt oberen Rand hinzu */
     position: relative;
 }
 
 .start-title {
-    font-size: 2.5rem;
+    font-size: 2.5rem; /* Setzt die Schriftgrösse */
     color: white;
-    text-transform: uppercase;
-    padding-top: 100px;
-    margin-bottom: 40px;
-    text-align: center;
+    text-transform: uppercase; /* Wandelt den Text in Grossbuchstaben um */
+    padding-top: 100px; /* Fügt oberen Rand hinzu */
+    margin-bottom: 40px; /* Fügt unteren Rand hinzu */
+    text-align: center; /* Zentriert den Text */
 }
 
 button {
-    background-color: #ff7139;
-    color: white;
+    background-color: #ff7139; /* Setzt die Hintergrundfarbe */
+    color: white; /* Setzt die Schriftfarbe */
     border: none;
-    border-radius: 20px;
-    padding: 10px 20px;
+    border-radius: 20px; /* Fügt abgerundete Ecken hinzu */
+    padding: 10px 20px; /* Fügt Polsterung hinzu */
     font-size: 1.2rem;
-    font-family: 'Poppins-light', sans-serif;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+    font-family: 'Poppins-light', sans-serif; /* Setzt die Schriftart */
+    cursor: pointer; /* Ändert den Cursor zu einem Pointer */
+    transition: background-color 0.3s ease; /* Fügt eine Übergangseffekt zur Hintergrundfarbe hinzu */
 }
 
 button:hover {
-    background-color: #dd6f3b;
+    background-color: #dd6f3b; /* Ändert die Hintergrundfarbe bei Hover */
 }
 
 #backgroundVideo {
@@ -84,34 +84,34 @@ button:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    z-index: -1;
+    object-fit: cover; /* Passt das Video an die Containergrösse an */
+    z-index: -1; /* Setzt das Video hinter andere Elemente */
 }
 
 .team-member {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin: 50px auto; 
-    width: 60%;
+    margin: 50px auto; /* Fügt oberen und unteren Rand hinzu */
+    width: 60%; /* Setzt die Breite */
 }
 
 .team-image-container {
     position: relative;
-    width: 200px; 
-    height: 200px; 
-    overflow: hidden; 
+    width: 200px; /* Setzt die Breite des Bildcontainers */
+    height: 200px; /* Setzt die Höhe des Bildcontainers */
+    overflow: hidden; /* Verhindert, dass der Hover-Effekt über die Grenzen geht */
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50%; 
-    border: 2px solid #ff7139; 
+    border-radius: 50%; /* Macht den Container kreisförmig */
+    border: 2px solid #ff7139; /* Fügt eine orange Kontur hinzu */
 }
 
 .team-image {
     width: 100%;
     height: 100%;
-    border-radius: 50%;
+    border-radius: 50%; /* Macht das Bild kreisförmig */
 }
 
 .team-image-container::after {
@@ -119,16 +119,17 @@ button:hover {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%; 
-    background-size: cover;
-    transition: opacity 0.3s ease;
-    opacity: 0;
-    border-radius: 50%;
+    width: 100%; /* Vollständige Abdeckung des Originalbilds */
+    height: 100%; /* Vollständige Abdeckung des Originalbilds */
+    background-size: cover; /* Stellt sicher, dass das Bild richtig skaliert */
+    transition: opacity 0.3s ease; /* Fügt eine Übergangseffekt zur Opazität hinzu */
+    opacity: 0; /* Unsichtbar bis zum Hover */
+    border-radius: 50%; /* Erhält die Kreisform */
 }
 
 .team-image-container:hover::after {
-    opacity: 1;
+    opacity: 1; /* Mach das Hover-Bild sichtbar */
+    transform: scale(1.05); /* Leichtes Vergrössern beim Hover */
 }
 
 #nora::after {
@@ -144,20 +145,20 @@ button:hover {
 }
 
 .team-member .info {
-    background-color: #ff7139;
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: calc(100% - 260px); 
-    color: white;
-    text-align: left;
+    background-color: #ff7139; /* Setzt die Hintergrundfarbe */
+    padding: 20px; /* Fügt Polsterung hinzu */
+    border-radius: 15px; /* Fügt abgerundete Ecken hinzu */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Fügt einen Schatten hinzu */
+    width: calc(100% - 260px); /* Setzt die Breite des Textcontainers */
+    color: white; /* Setzt die Schriftfarbe */
+    text-align: left; /* Richtet den Text links aus */
     font-size: 1rem;
-    margin-left: 20px;
+    margin-left: 20px; /* Fügt linken Rand hinzu */
 }
 
 .team-member h2 {
-    font-weight: 600;
-    margin-bottom: 10px;
+    font-weight: 600; /* Setzt die Schriftstärke */
+    margin-bottom: 10px; /* Fügt unteren Rand hinzu */
 }
 
 .page-title {
@@ -174,17 +175,16 @@ button:hover {
     color: white;
     align-content: center;
     padding: 20px;
-    margin: 0 auto 50px auto; 
+    margin: 0 auto 50px auto; /* Zentriert die Box und fügt unteren Rand hinzu */
     border-radius: 15px;
-    width: 70%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-    text-align: left;
+    width: 70%; /* Setzt die Breite der Tipp-Box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Fügt einen Schatten hinzu */
+    transition: transform 0.3s ease; /* Fügt eine Übergangseffekt zur Skalierung hinzu */
+    text-align: left; /* Richtet den Text links aus */
 }
 
-
 .tip:hover {
-    transform: scale(1.05); 
+    transform: scale(1.05); /* Leichtes Vergrössern beim Hover */
 }
 
 .tip-title {
@@ -199,24 +199,23 @@ button:hover {
 /* Responsive Design Anpassungen für Mobilgeräte */
 @media (max-width: 768px) {
     .team-member {
-        flex-direction: column;
-        align-items: center;
+        flex-direction: column; /* Ändert die Richtung der Flexbox-Elemente auf vertikal */
+        align-items: center; /* Zentriert die Elemente */
     }
 
     .team-image-container {
-        display: none; 
+        display: none; /* Entfernt das Bild bei kleineren Bildschirmgrössen */
     }
 
     .team-member .info {
-        width: 100%; 
-        padding: 15px;
-        margin-left: 0;
+        width: 100%; /* Setzt die Breite des Textcontainers auf 100% */
+        padding: 15px; /* Fügt Polsterung um den Text hinzu */
+        margin-left: 0; /* Entfernt den Abstand zwischen Bild und Text */
     }
 
     .team-member .info:hover {
-        transform: scale(1.05);
-        transition: transform 0.3s ease;
-    
+        transform: scale(1.05); /* Vergrössert den Textcontainer bei Hover */
+        transition: transform 0.3s ease; /* Fügt eine weiche Transition hinzu */
     }
 
     .start-title {
@@ -229,12 +228,10 @@ button:hover {
     }
 
     .tip-title, .team-member h2 {
-        font-size: 1.2rem;
+        font-size: 1.2rem; /* Verkleinert die Schriftgrösse der Titel bei kleineren Bildschirmgrössen */
     }
 
     .tip-text, .team-member .info p {
-        font-size: 0.9rem;
+        font-size: 0.9rem; /* Verkleinert die Schriftgrösse des Textes bei kleineren Bildschirmgrössen */
     }
-
 }
-
