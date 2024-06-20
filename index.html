@@ -3,16 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>Geht's heute die Aare runter?</title>
+    <link rel="icon" href="Images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"></head>
 <body>
-    <div class="content">
-        <h1>Geht's heute die Aare runter? Der Aare Geenie sagt dir ob's passt! 🧞‍♂️</h1>
-        <button id="magicLamp"><img src="AdobeStock_549673462.png" alt="Wunderlampe"></button>
-        <div id="glitter" class="glitter"></div>
-        <div id="result" class="hidden"></div>
-    </div>
+    <header>
+        <img src="Images/Logo.png" alt="Logo" onclick="window.location='index.html';" />
+        <div>
+            <a href="about.html">ABOUT</a>
+            <a href="tips.html">TIPPS</a>
+        </div>
+    </header>
+    <main>
+        <video autoplay muted loop id="backgroundVideo" style="opacity: 0.5;">
+            <source src="Images/Background_Video.mp4" type="video/mp4">
+        </video>
+        <div class="call-to-action">
+            <h1 class="start-title">GEHT'S HEUTE DIE AARE RUNTER?</h1>
+            <button id="checkButton">finde raus ob's heute passt</button>
+        </div>
+        <div id="result"></div>
+    </main>
     <script src="script.js"></script>
 </body>
 </html>
