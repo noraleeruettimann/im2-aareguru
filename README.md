@@ -4,7 +4,7 @@ Im Hintergrund der Webseite ist ein Video von der Aare, das im Loop abgespielt w
 Bei «Über Uns» stellen wir uns als Team vor und wofür jedes Gruppenmitglied verantwortlich war während der Erstellung der Webseite.
 
 LEARNINGS
-Künstliche Intelligenz – Da es für uns als Gruppe eine grosse Herausforderung war, eine Webseite selbst zu programmieren, haben wir viel mit ChatGPT gearbeitet, was uns bei der Erstelllung der Webseite extrem geholfen. Es war hilfreich für das Erstellen der Codes an sich sowie auch beim Suchen eines Fehlers im Code.
+Künstliche Intelligenz – Da es für uns als Gruppe eine grosse Herausforderung war, eine Webseite selbst zu programmieren, haben wir viel mit ChatGPT gearbeitet, was uns bei der Erstellung der Webseite extrem geholfen hat. Es war hilfreich für das Erstellen der Codes an sich sowie auch beim Suchen eines Fehlers im Code.
 Hintergrundvideo  – Im Nachhinein macht es wahrscheinlich mehr Sinn, ein Bild oder ein Video als Hintergrund zu verwenden, das nicht der gesamten Bildschirmgrösse enstpricht. Denn wir mussten die Datei des Videos stark verkleinern damit es keinen Einfluss auf die Schnelligkeit der Webseite hat oder allenfalls sogar das Funktionieren der Webseite beeinflusst. 
 Realisitsch bleiben – Wir hatten uns sehr viel vorgenommen und hohe Erwartungen an unser Projekt. Im Nachhinein hätten wir uns etwas Frust gespart, wenn wir uns etwas realistischere Ziele anhand unseres Wissens und Könnens im Programmieren definiert hätten. Wir sind trotzdem sehr zufrieden mit unserem Endergebnis und unserer Arbeit
     
