@@ -1,4 +1,4 @@
-KURZBESCHREIBUNG
+KURZBESCHREIBUNG<br>
 Auf unserer Webseite haben wir die API von Aareeguru eingebunden. Wir wollen es Nutzer:innen möglich machen, auf unserer Webseite schnell und einfach herauszufinden, ob sich der heutige Tag dafür eignet, in der Aare schwimmen zu gehen. Das Resultat macht sich von den heutigen Aussentemperaturen abhängig.
 Im Hintergrund der Webseite ist ein Video von der Aare, das im Loop abgespielt wird. Wenn dann ein Button gedrückt wird, ändert sich die Farbe entweder zu gelb, wenn es warm genug ist, oder zu blau, wenn es zu kalt ist. Ausserdem zeigt es zusätzlich noch die Wassertemperatur	en und die Fliessgeschwindigkeit des Flusses an.
 Bei «Über Uns» stellen wir uns als Team vor und wofür jedes Gruppenmitglied verantwortlich war während der Erstellung der Webseite.
